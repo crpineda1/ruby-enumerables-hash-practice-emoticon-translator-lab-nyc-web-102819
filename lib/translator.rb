@@ -14,11 +14,11 @@ def load_library(file_path)
   doc
 
   hash = {"get_meaning" => {},"get_emoticon" => {}}
-binding.pry
+
   doc.each do |key, value|
     hash["get_meaning"][value[1]] = key
     hash["get_emoticon"][value[0]] = doc[key][1]
-
+binding.pry
   end
 hash
 
