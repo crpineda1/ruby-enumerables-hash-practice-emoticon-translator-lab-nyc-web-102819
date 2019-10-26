@@ -6,7 +6,11 @@ require 'pry'
 def load_library(file_path)
   # code goes here
   doc = YAML.load_file(file_path)
+<<<<<<< HEAD
 #binding.pry
+=======
+
+>>>>>>> a975d4d55e781fe6b92c0c971a0dc1b314a507ca
   doc
 
   hash = {"get_meaning" => {},"get_emoticon" => {}}
